@@ -57,7 +57,7 @@ fasta.files <- read.protein("Wild.proteins.fasta",
 - The missed cleavages number.
 
 ```R
-mCleavages <- 1
+mCleavages <- 0
 ```
 
 - The file name output fasta file.
