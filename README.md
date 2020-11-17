@@ -36,3 +36,34 @@ source("Run.mutation.r")
 Run.mutation("COSMIC-haematopoietic-point-mutations.csv")
 
 ```
+
+## 2. The trypsin protein digestion script
+
+**The [trypsin protein digestion script](https://github.com/AliYoussef96/Onco_PeoteoGenomics/tree/main/trypsin) consists of two files;**
+
+The first file **"trypsin.functions.r"** contains the necessary functions to run the second script **"trypsin.r"** 
+
+How to run it;
+
+In the **"trypsin.r"** the inputs needed are;
+
+- Two paths one for the wild protein fasta file, and the second for the mutated protein fasta file.
+
+```R
+fasta.files <- read.protein("Wild.proteins.fasta", 
+                            "Mutated.proteins.fasta")
+```
+
+- The missed cleavages number.
+
+```R
+mCleavages <- 1
+```
+
+- The file name output fasta file.
+
+```R
+out.file.name <- ""
+```
+
+Then run the rest of the code as it is.
