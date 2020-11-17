@@ -2,7 +2,7 @@
 
 ## The Mutation script
 
-**The [mutations script](https://github.com/AliYoussef96/Onco_PeoteoGenomics/tree/main/mutations) consists of three files;**
+**1. The [mutations script](https://github.com/AliYoussef96/Onco_PeoteoGenomics/tree/main/mutations) consists of three files;**
 
 **Mutations.functions.r** contains the necessary functions to run the second script **Run.mutation.r.** The final file named **Mutations.r** is only to run the main function, import the packages, and source the rest of the functions.
 
